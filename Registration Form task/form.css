@@ -1,0 +1,94 @@
+@media(min-width: 375px) and (max-width: 1440px) {
+    #all-content{
+        display: flex;
+    }
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("bg-intro-desktop.png"), hsl(0, 100%, 74%);
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 8px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    margin:  40px auto;
+    justify-content: center;
+    align-items: center;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    color: white;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 1.25em;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 1em;
+}
+.second-section{
+    margin: 3em;
+    width: 80%;
+}
+.form-intro {
+    text-align: center;
+    background: hsl(248,32%,49%);
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 20px dimgray;
+}
+strong{
+    font-weight: bold;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 1.3em;
+}
+input {
+    height: 40px;
+    padding: 7px 20px;
+    background: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+#for-submit {
+    background: hsl(154,59%,51%);
+    border: none;
+}
+#form-foot {
+    color: hsl(249,10%,26%);
+    text-align: center;
+    font-size: 7px;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
